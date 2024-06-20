@@ -1,0 +1,81 @@
+html, body, div, h1, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "baileywick-jf-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: baseline;
+    background-color: #d8f1e7;
+}
+
+.hero {
+    position: relative;
+    height: 250px;
+    overflow: hidden; 
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+#gerarNumeros {
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #179565;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#gerarNumeros:hover {
+    background-color: #dcc30a;
+}
+
+#numerosGerados {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #179565;
+}
+
+#gerarNumeros2 {
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #1d83ae;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#gerarNumeros2:hover {
+    background-color: #dcc30a;
+}
+
+#numerosGerados2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #179565;
+}
